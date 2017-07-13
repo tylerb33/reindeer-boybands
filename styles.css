@@ -1,0 +1,22 @@
+h1 {
+	color: red;
+	text-align: center;
+}
+
+.ul-prop {
+	list-style-type: none;
+	text-align: center;
+}
+
+
+.li-prop {
+	font-style: italic;
+}
+
+ul:nth-child(2n+1) {
+	color: red;
+}
+
+ul:nth-child(2n+0) {
+	color: green;
+}
